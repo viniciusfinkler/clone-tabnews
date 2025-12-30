@@ -4,7 +4,10 @@
   "description": "Projeto do https://curso.dev/ para evoluir na carreira de programação.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose -f infra/compose.yaml up -d",
+    "services:down": "docker compose -f infra/compose.yaml down",
+    "services:stop": "docker compose -f infra/compose.yaml stop",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
