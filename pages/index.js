@@ -1,5 +1,5 @@
-import githubLogoBlack from "../assets/images/github-logo-black.svg";
-import backgroundImg from "../assets/images/background.png";
+import githubLogoBlack from "assets/images/github-logo-black.svg";
+import backgroundImg from "assets/images/background.png";
 
 function Home() {
   return (

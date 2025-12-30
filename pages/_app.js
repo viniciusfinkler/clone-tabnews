@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "styles/globals.css";
 import { Crimson_Text } from "@next/font/google";
 
 const crimsonText = Crimson_Text({ subsets: ["latin"], weight: ["400"] });
