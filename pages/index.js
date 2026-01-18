@@ -14,8 +14,8 @@ function Home() {
         <p>
           O <b>PackYourBags</b> é um projeto <i>open source</i> que está em
           estágio de construção. É uma comunidade onde os <b>viajantes</b>{" "}
-          poderão compartilhar suas <b>experiências</b> <br /> e <b>auxiliar</b>{" "}
-          outros que procuram uma luz para guiá-los na próxima aventura. Sua{" "}
+          poderão compartilhar suas <b>experiências</b> <br /> e auxiliar outros
+          que procuram uma luz para guiá-los na próxima aventura. Sua{" "}
           <b>viagem dos sonhos</b> se tornará muito melhor partindo daqui.
         </p>
         <div className="content">
