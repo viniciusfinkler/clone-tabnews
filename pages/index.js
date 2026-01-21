@@ -1,5 +1,6 @@
 import githubLogoBlack from "assets/images/github-logo-black.svg";
 import backgroundImg from "assets/images/background.png";
+import Image from "next/image";
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
             href="https://github.com/viniciusfinkler/clone-tabnews"
           >
             <button className="action">
-              <img
+              <Image
                 src={githubLogoBlack.src}
                 width={40}
                 height={40}
