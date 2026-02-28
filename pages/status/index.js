@@ -37,9 +37,9 @@ function Database() {
     refreshInterval: 2000,
   });
 
-  let maxConnectionsText = 0;
-  let openedConnectionsText = 0;
-  let versionText = 0;
+  let maxConnectionsText = "Carregando...";
+  let openedConnectionsText = "Carregando...";
+  let versionText = "Carregando...";
 
   if (!isLoading && data) {
     maxConnectionsText = data.dependencies.database.max_connections;
