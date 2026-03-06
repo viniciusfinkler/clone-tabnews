@@ -6,7 +6,7 @@ import { ServiceError } from "infra/errors";
 const defaultMigrationOptions = {
   dryRun: true,
   dir: resolve("infra", "migrations"),
-  verbose: true,
+  log: () => {},
   migrationsTable: "pgmigrations",
   direction: "up",
 };
