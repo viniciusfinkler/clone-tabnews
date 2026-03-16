@@ -72,7 +72,7 @@ describe("GET /api/v1/user", () => {
       });
     });
 
-    test("With nonexistent token", async () => {
+    test("With nonexistent session", async () => {
       const nonexistentToken =
         "57b7181732dc40f2a06c636653edf4354054afbf7708640f41f788697065de48f6775cfee412ee30051547e7a0830b2";
 
